@@ -142,6 +142,26 @@ Black 900
 .most-donation {
   background-color: #c6e4d6;
 }
+.done-btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  background-color: #006a50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: #16a34a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: all 300ms;
+  }
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
 /* All Button end */
 .nav {
   display: flex;
@@ -301,4 +321,22 @@ Black 900
   align-items: center;
   justify-content: center;
   gap: 24px;
+}
+.custom-amount {
+  margin-bottom: 32px;
+  width: 100%;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #006a50;
+  border: none;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  &::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    color: rgba(14, 14, 14, 0.3);
+  }
 }
