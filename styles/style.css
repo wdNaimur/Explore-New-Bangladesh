@@ -18,6 +18,9 @@ Bold 700
 ExtraBold 800
 Black 900
 */
+main {
+  background-color: #f5f5f5;
+}
 .container {
   margin: 0 160px 0;
 }
@@ -38,6 +41,12 @@ Black 900
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 12px;
+}
+.subscribe-heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: #0e0e0e;
+  margin-bottom: 16px;
 }
 .primary-paragraph {
   font-size: 16px;
@@ -338,5 +347,86 @@ Black 900
     font-size: 20px;
     font-family: "Fira Sans", serif;
     color: rgba(14, 14, 14, 0.3);
+  }
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+/* Subscribe section  */
+.subscribe {
+  padding-bottom: 80px;
+}
+.subscribe-section {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 265px;
+}
+.email-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.subscribe-email {
+  font-size: 16px;
+  color: #0e0e0e;
+  width: 80%;
+  height: 55px;
+  padding: 18px 0 18px 40px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  &::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.subscribe-btn {
+  width: 20%;
+  height: 55px;
+  border: none;
+  color: #fff;
+  background-color: #006a50;
+  padding: 17px 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: #16a34a;
+    transition: all 300ms;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+/* footer  */
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 50px 0 32px 0;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+
+  & a {
+    text-decoration: none;
+    color: #0e0e0e;
+  }
+}
+
+.social-icons {
+  margin: 32px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+.social-icon {
+  height: 24px;
+  width: auto;
+  &:hover {
+    transform: translateY(-2px);
+    transition: all 300ms;
   }
 }
