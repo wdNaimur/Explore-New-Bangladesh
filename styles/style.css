@@ -359,6 +359,9 @@ tbody tr td {
   margin-bottom: 80px;
 }
 .news-img {
+  width: 500px;
+  height: 380px;
+  object-fit: cover;
   border-radius: 12px;
 }
 .news-chanel-logo {
